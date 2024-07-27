@@ -5,4 +5,12 @@ int main(void){
 
  printf("Hello My Team"); 
 
-return 0; }
+ int x = 0 ;
+ int y = 90; 
+ 
+ printf("%d + %d = %d",x,y,x+y); 
+
+
+return 0;
+
+ }
