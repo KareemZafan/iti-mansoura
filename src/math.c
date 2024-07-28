@@ -8,6 +8,12 @@ double div(double a , double b){
   else exit(1) ; 
  }
  
+ long abs(long a){
+   retrun  (a < 0) ? (a * -1) :  a;    
+ }
+ 
+ 
+ 
  double mul(double a , double b){
   return a * b ; 
  }
