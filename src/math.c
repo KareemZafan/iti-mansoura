@@ -1,20 +1,31 @@
 #include <stdio.h>
+#include <math.h>
 
 
-doube div(double a , double b){
+double div(double a , double b){
   if(b !=0 ) 
   return a / b ; 
   else exit(1) ; 
  }
  
- doube mul(double a , double b){
+ double mul(double a , double b){
   return a * b ; 
+ }
+
+double add(double a , double b){
+  return a + b; 
+ }
+ 
+ double getSquareRoot(int a){
+  return sqrt(a); 
  }
  
  int main(void){
- 
+
   printf("%f / %f = %f", 10,2,div(10,2)); 
   printf("%f * %f = %f", 10,2,mul(10,2)); 
-  
+
+  printf("%f + %f = %f", 10,2,add(10,2)); 
+  printf("sqrt(%d) = %f",sqrt(400)); 
  return 0 ; 
  }
