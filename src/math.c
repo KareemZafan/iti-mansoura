@@ -27,7 +27,5 @@ double add(double a , double b){
 
   printf("%f + %f = %f", 10,2,add(10,2)); 
   printf("sqrt(%d) = %f",sqrt(400)); 
-  
-  printf("Thank You"); 
  return 0 ; 
  }
