@@ -10,7 +10,7 @@ int main(void){
  
  printf("%d + %d = %d",x,y,x+y); 
 
-
+  // I can push changes to master directly
 return 0;
 
  }
