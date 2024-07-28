@@ -9,8 +9,10 @@ int main(void){
  int y = 90; 
  
  printf("%d + %d = %d",x,y,x+y); 
+ 
+ printf("Hello Everyone"); 
+ printf("End of program"); 
 
-  // I can push changes to master directly
 return 0;
 
  }
