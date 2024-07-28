@@ -16,7 +16,7 @@ int main(void){
  printf("%d + %d = %d",x,y,x+y); 
  printf("Square root for %d = %0.3f",y,sqrt(y)); 
  
-
+//new change without permession
 
 return 0;
 
