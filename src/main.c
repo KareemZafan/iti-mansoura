@@ -10,6 +10,7 @@ int main(void){
  
  printf("%d + %d = %d",x,y,x+y); 
  
+ printf("Hello Everyone"); 
  printf("End of program"); 
 
 return 0;
