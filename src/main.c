@@ -9,7 +9,9 @@ int main(void){
  int y = 90; 
  
  printf("%d + %d = %d",x,y,x+y); 
-
+ 
+ printf("Hello Everyone"); 
+ printf("End of program"); 
 
 return 0;
 
